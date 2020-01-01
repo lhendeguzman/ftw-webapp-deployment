@@ -1,7 +1,7 @@
-mkdir -p ~/streamlit/
+mkdir -p ~/.streamlit/
 
 echo "\
-[generate]\n\
+[general]\n\
 email = \"contactlhen@gmail.com\"\n\
 " > ~/.streamlit/credentials.toml
 
@@ -10,4 +10,4 @@ echo "\
 headless = true\n\
 enableCORS=false\n\
 port = $PORT\n\
-" > ~/.streamlit/config/toml
+" > ~/.streamlit/config.toml
